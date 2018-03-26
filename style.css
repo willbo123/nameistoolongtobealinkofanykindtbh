@@ -1,0 +1,1365 @@
+/* skip to main link*/
+
+
+
+.skip-main {
+
+    left: -999px;
+
+    position: absolute;
+
+    top: auto;
+
+    width: 1px;
+
+    height: 1px;
+
+    overflow: hidden;
+
+    z-index:-999;
+
+}
+
+
+
+.skip-main:focus, .skip-main:active {
+
+    color: #fff;
+
+    background-color: #000;
+
+    left: auto;
+
+    top: auto;
+
+    width: 30%;
+
+    height: auto;
+
+    overflow: auto;
+
+    margin: 10px 35%;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    font-size: 1.2em;
+
+    z-index: 999;
+
+}
+
+
+
+/* TYPOGRAPHY */
+
+
+
+
+
+
+
+p {
+
+
+
+    font-family: 'Trirong', serif;
+
+
+
+    font-size: 1em;
+
+
+
+    font-weight: lighter;
+
+
+
+    line-height: 1.8;
+
+
+
+    margin-left: 80px;
+
+
+
+    margin-right: 80px;
+
+
+
+}
+
+
+
+
+
+
+
+h1 {
+
+
+
+    font-family: northwell, helvetica, arial, sans-serif;
+
+
+
+    font-size: 70px;
+
+
+
+    line-height: 1.125;
+
+
+
+    background-color: #efefef;
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+h2 {
+
+
+
+    font-family: 'Trirong', serif;
+
+
+
+    font-size: 34px;
+
+
+
+    font-weight: bolder;
+
+
+
+    color: #ad974f;
+
+
+
+    line-height: 1.25;
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+nav {
+
+
+
+    font-family: 'Trirong';
+
+
+
+    font-size: 24px;
+
+
+
+    font-weight: bolder;
+
+
+
+    background-color: black;
+
+
+
+}
+
+
+
+
+
+
+
+nav ul {
+
+
+
+    list-style-type: none;
+
+
+
+    margin: 0;
+
+
+
+    padding: 0;
+
+
+
+    display: flex;
+
+
+
+    flex-wrap: wrap;
+
+
+
+}
+
+
+
+
+
+
+
+nav ul li {
+
+
+
+    padding: 20px;
+
+
+
+    text-align: center;
+
+
+
+    width: 50%;
+
+
+
+}
+
+
+
+
+
+
+
+nav li {
+
+
+
+    display: inline-block;
+
+
+
+    list-style: none;
+
+
+
+    flex: 20%;
+
+
+
+    color: #ad974f;
+
+
+
+}
+
+
+
+
+
+
+
+main {
+
+
+
+    max-width: 1200px;
+
+
+
+    margin-left: auto;
+
+
+
+    margin-right: auto;
+
+
+
+    padding: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.page-nav a {
+
+
+
+    padding: 20px;
+
+
+
+    color: #ad974f;
+
+
+
+}
+
+
+
+
+
+
+
+section.container {
+
+
+
+    border-bottom: solid 2px #E1D9BF;
+
+
+
+    background-color: #efefef;
+
+
+
+    padding-bottom: 40px;
+
+
+
+}
+
+
+
+
+
+
+
+main {
+
+
+
+    background-color: #efefef;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section 2 styling */
+
+
+
+
+
+
+
+ .food-drink-container{
+
+
+
+    border-bottom: solid 2px #E1D9BF;
+
+
+
+    padding-bottom: 40px;
+
+
+
+
+
+
+
+} 
+
+
+
+
+
+
+
+.section2-image1 {
+
+
+
+    width: 450px;
+
+
+
+    height: 280px;
+
+
+
+    float: left;
+
+
+
+    margin-left: 50px;
+
+
+
+    padding-right: 50px;
+
+
+
+padding-bottom: 80px;
+
+
+
+}
+
+
+
+
+
+
+
+.section2-content1 {
+
+
+
+    padding-bottom: 80px;
+
+
+
+}
+
+
+
+
+
+
+
+.section2-image2 {
+
+
+
+    width: 450px;
+
+
+
+    height: 280px;
+
+
+
+    float: right;
+
+
+
+    margin-right: 50px;
+
+
+
+    padding-left: 50px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.section2-content2 {
+
+
+
+    text-align: left;
+
+
+
+    padding-top: 40px;
+
+
+
+    padding-bottom: 50px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.food-drink-button {
+
+
+
+    display: inline-block;
+
+
+
+    padding: 10px 20px;
+
+
+
+    font-weight: bold;
+
+
+
+    text-decoration: none;
+
+
+
+    border: 1px solid #ad974f;
+
+
+
+    margin-right: 10px;
+
+
+
+    margin-bottom: 1em;
+
+
+
+    border-radius: 0.2em;
+
+
+
+    transition: all 0.2s ease;
+
+
+
+    color: #ad974f;
+
+
+
+    font-family: 'Trirong', serif;
+
+
+
+    font-weight: 300;
+
+
+
+    font-size: 1.2em;
+
+
+
+    background: #efefef;
+
+
+
+    color: #ad974f;
+
+
+
+    padding: 15px 30px;
+
+
+
+    justify-content: center;
+
+
+
+   
+
+
+
+}
+
+
+
+
+
+
+
+.food-drink-button:hover {
+
+
+
+    cursor: pointer;
+
+
+
+    background-color: #ad974f;
+
+
+
+    color: white;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+/* Third section / street art / home page */
+
+
+
+
+
+
+
+.street-art-container{
+
+
+
+    border-bottom: solid 2px #E1D9BF;
+
+
+
+    padding-bottom: 40px;
+
+
+
+
+
+
+
+} 
+
+
+
+
+
+
+
+.section3-image1 {
+
+
+
+    width: 450px;
+
+
+
+    height: 280px;
+
+
+
+    float: left;
+
+
+
+    margin-left: 50px;
+
+
+
+    padding-right: 50px;
+
+
+
+    padding-bottom: 80px;
+
+
+
+}
+
+
+
+
+
+
+
+.section3-content1 {
+
+
+
+    padding-bottom: 80px;
+
+
+
+}
+
+
+
+
+
+
+
+.section3-image2 {
+
+
+
+    width: 450px;
+
+
+
+    height: 280px;
+
+
+
+    float: right;
+
+
+
+    margin-right: 50px;
+
+
+
+    padding-left: 50px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.section3-content2 {
+
+
+
+    text-align: left;
+
+
+
+    padding-top: 40px;
+
+
+
+    padding-bottom: 50px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.street-art-button {
+
+
+
+    display: inline-block;
+
+
+
+    padding: 10px 20px;
+
+
+
+    text-decoration: none;
+
+
+
+    border: 1px solid #ad974f;
+
+
+
+    margin-right: 10px;
+
+
+
+    margin-bottom: 1em;
+
+
+
+    border-radius: 0.2em;
+
+
+
+    transition: all 0.2s ease;
+
+
+
+    color: #ad974f;
+
+
+
+    font-family: 'Trirong', serif;
+
+
+
+    font-weight: 300;
+
+
+
+    font-size: 1.2em;
+
+
+
+    background: #efefef;
+
+
+
+}
+
+
+
+
+
+.contact-button {
+
+
+
+    display: inline-block;
+
+
+
+    padding: 10px 20px;
+
+
+
+    text-decoration: none;
+
+
+
+    border: 1px solid #ad974f;
+
+
+
+    margin-right: 10px;
+
+
+
+    margin-bottom: 1em;
+
+
+
+    border-radius: 0.2em;
+
+
+
+    transition: all 0.2s ease;
+
+
+
+    font-family: 'Trirong', serif;
+
+
+
+    font-weight: 300;
+
+
+
+    font-size: 1.2em;
+
+
+
+    background: #efefef;
+
+
+
+    color: #ad974f;
+
+
+
+
+
+}
+
+
+
+
+
+.street-art-button:hover {
+
+
+
+    cursor: pointer;
+
+
+
+    background-color: #ad974f;
+
+
+
+    color: white;
+
+
+
+}
+
+
+
+
+
+
+
+/* footer styling */
+
+
+
+
+
+
+
+footer {
+
+
+
+    color: white;
+
+
+
+    background-color: black;
+
+
+
+    padding-top: 30px;
+
+
+
+    padding-bottom: 30px;
+
+
+
+    display: flex;
+
+
+
+    flex-direction: row;
+
+
+
+}
+
+
+
+footer p {
+
+
+
+    text-align: left;
+
+
+
+    display: inline;
+
+
+
+    text-transform: uppercase;
+
+
+
+    font-weight: lighter;
+
+
+
+}
+
+
+
+
+
+
+
+.footer-content {
+
+
+
+    list-style: none;
+
+
+
+    border-top: 2px solid #ad974f;
+
+
+
+    width: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+.footer-links {
+
+
+
+    list-style: none;
+
+
+
+    flex: 80%;
+
+
+
+}
+
+
+
+
+
+
+
+.fb-icon {
+
+
+
+    width: 40px;
+
+
+
+    height: 40px;
+
+
+
+    float: right;
+
+
+
+}
+
+
+
+
+
+
+
+.twitter-icon{
+
+
+
+    width: 45px;
+
+
+
+    height: 45px;
+
+
+
+    float: right;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========FOOD AND DRINK & ART BOXES ================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-content .content {
+
+
+
+    display: flex;
+
+
+
+    text-align: center;
+
+
+
+    justify-content: center;
+
+
+
+}
+
+
+
+
+
+
+
+.review {
+
+
+
+    flex: 30%;
+
+
+
+    padding-top: 20px;
+
+
+
+    padding-right: 10px;
+
+
+
+    max-width: 600px;
+
+
+
+    text-align: center;
+
+
+
+    justify-content: center;
+
+
+
+    padding-bottom: 40px;
+
+
+
+}
+
+/* Text fields */
+
+
+
+input, textarea {
+
+
+
+    /* Increasing text box size */ 
+
+
+
+    padding: 0.4em;
+
+
+
+    /* Making the input text bigger to make it easier to see */
+
+
+
+    font-size: 1.2em;
+
+
+
+    /* Following the default typeface */
+
+
+
+    font-family: 'Raleway', sans-serif;
+
+
+
+    border: 1px solid #bbb;
+
+
+
+    min-width: 50%;
+
+
+
+}
+
+
+
+
+
+form label {
+
+    
+
+    /*Each label comes above the field */
+
+
+
+    display: block;
+
+
+
+    /* Padding based on size of text etc*/
+
+
+
+    padding-bottom: 0.2em;
+
+
+
+    padding-top: 0.5em;
+
+
+
+}
+
+
+
+
+
+p.menu {
+
+
+
+    padding: 10px;
+
+
+
+}
+
+
+
+
+
+.fd-wrapper{ 
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+.fd-button {
+
+
+
+    display: inline-block;
+
+
+
+    padding: 10px 20px;
+
+
+
+    font-weight: bold;
+
+
+
+    text-decoration: none;
+
+
+
+    border: 1px solid #ad974f;
+
+
+
+    margin-right: 10px;
+
+
+
+    margin-bottom: 1em;
+
+
+
+    border-radius: 0.2em;
+
+
+
+    transition: all 0.2s ease;
+
+
+
+    font-family: 'Trirong', serif;
+
+
+
+    font-weight: 300;
+
+
+
+    font-size: 1.2em;
+
+
+
+    background: #ad974f;
+
+
+
+    color: white;
+
+
+
+    padding: 15px 30px;
+
+
+
+    justify-content: center;
+
+
+
+    cursor: pointer;
+
+
+
+}
